@@ -1,4 +1,4 @@
-.eslintrc
 /.cache
-/node_modules
+/dev
 /dist
+/node_modules
