@@ -4,21 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/index.html --out-dir dev --open",
-    "build": "parcel build ./src/index.html --public-url ./"
+    "start": "yarn parcel ./src/index.html -d public -p 2000 --open",
+    "build": "yarn parcel build ./src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "Arbie C.",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.17.1",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "axios": "^0.18.0",
+    "node-sass": "^4.10.0",
+    "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "git://github.com/parcel-bundler/parcel.git",
-    "react": "^16.2.0",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.2.0"
+    "parcel-bundler": "^1.10.3"
   }
 }
